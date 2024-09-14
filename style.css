@@ -1,0 +1,13 @@
+input, label {
+	background: #5dade2;
+	border-radius: 25px;
+	border: 2px solid #1a5276;
+	color: #000;
+	cursor: pointer;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 3px 3px;
+	text-align: center;
+	width: 260px;
+}
