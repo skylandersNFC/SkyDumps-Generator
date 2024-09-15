@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const uidInput = document.getElementById('uid');
+    const nameInput = document.getElementById('name');
+    const downloadButton = document.getElementById('download');
+
+    downloadButton.style.display = 'none';
+
+    function checkInputs() {
+        const uidFilled = uidInput.value.length === 8;
+        const nameFilled = nameInput.value.trim() !== '';
+
+        if (uidFilled && nameFilled) {
+            downloadButton.style.display = 'inline-block';
+        } else {
+            downloadButton.style.display = 'none';
+        }
+    }
+
+    uidInput.addEventListener('input', checkInputs);
+    nameInput.addEventListener('input', checkInputs);
+});
+
 window.onload = function () {
     class i {
         constructor(i, n) {
@@ -621,7 +643,7 @@ window.onload = function () {
         }, {
             i: 114,
             v: 4629,
-            n: "Eye-Brawl (Pumpkin) (G) ???"
+            n: "Eye-Brawl (Pumpkin) (G)"
         }, {
             i: 543,
             v: 12288,
@@ -736,12 +758,12 @@ window.onload = function () {
             n: "Fright Rider"
         }, {
             i: 115,
-            v: 6161,
+            v: 4113,
             n: "Fright Rider (GITD)"
         }, {
             i: 115,
-            v: 4113,
-            n: "Fright Rider (Halloween) ???"
+            v: 4117,
+            n: "Fright Rider (Halloween)"
         }, {
             i: 3004,
             v: 8192,
@@ -1869,7 +1891,7 @@ window.onload = function () {
         }, {
             i: 217,
             v: 12291,
-            n: "Trap - Life Toucan NEW"
+            n: "Trap - Life Toucan (New)"
         }, {
             i: 217,
             v: 12315,
@@ -2169,7 +2191,7 @@ window.onload = function () {
         }, {
             i: 3228,
             v: 17410,
-            n: "Vehicle - Stealth Stinger (Nitro) ???"
+            n: "Vehicle - Stealth Stinger (Nitro)"
         }, {
             i: 3236,
             v: 16384,
