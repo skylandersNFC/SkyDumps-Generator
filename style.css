@@ -5,6 +5,8 @@ input, label {
 	color: #000;
 	cursor: pointer;
 	display: inline-block;
+	font-family: sans-serif;
+	font-size: 20px;
 	padding: 3px 3px;
 	text-align: center;
 	width: 260px;
