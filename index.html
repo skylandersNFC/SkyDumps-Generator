@@ -3,12 +3,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.2" />
-		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="assets/styles.css" type="text/css">
 	</head>
 	<body>
 		<section>
 			<h1>SkyDumps Generator</h1>
-			<p>Generates a Skylander figure dump with specific UID.</p>
+			<p>Use this tool to generate a <strong>Skylander dumps</strong> with a <strong>specific UID</strong>.</p>
+			<p>The <strong>UID</strong> must be exactly <strong>8 characters long</strong>, using <strong>only letters and numbers</strong>.</p>
+			<p>After selecting a Skylander from the <strong>dropdown menu</strong> on "<strong>Choose Dump...</strong>" button, a new "<strong>Download</strong>" button will appear.</p>
+			<p>All <strong>generated dumps</strong> are compatible with <strong>both emulators and real consoles</strong>.</p>
+			<p>Skylander <strong>Imaginators cannot</strong> be generated with this tool, as their encryption has <strong>not been cracked</strong> yet.</p>
 		</section>
 		<input id="uid" placeholder="Type UID..." type="text" minlength="8" maxlength="8"/>
 		<input list="data" placeholder="Choose Dump..." id="name">
@@ -16,6 +20,6 @@
 		<a id="download">
 			<label>Download</label>
 		</a>
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="assets/script.js"></script>
 	</body>
 </html>
